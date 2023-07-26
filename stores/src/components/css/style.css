@@ -1,0 +1,556 @@
+/* stores Login css*/
+
+.containerlogin {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 900px;
+	max-width: 100%;
+	min-height: 400px;
+	margin-left:20%;
+	margin-top:100px;
+}
+.containerlogin .loginimage{
+    position: absolute;
+	
+    background: url("../images/Loginbg.jpg");
+	overflow: hidden;
+	width: 450px;
+	max-width: 100%;
+	min-height: 550px;
+	
+	
+    
+}
+.containerlogin .login{
+    background-color:rgb(255, 255, 255);
+	width: 450px;
+	float: right;
+    text-align: center;
+ 
+	min-height: 480px;
+    font-size: 1rem;
+    line-height: 6rem;
+    text-align: center;
+   
+    margin-top: 5%;
+    
+}
+.Logininput-box{
+    width: 70%;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 6px 0;
+    height: 42px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    margin-top: 10%;
+}
+
+button {
+    width: 35%;
+    background-color: chartreuse;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 37px 0 10px;
+    height: 38px;
+    font-size: 12px;
+    
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+   
+
+} 
+
+
+/*Choose css*/
+
+
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+   
+    margin: 300px  25px;
+    width: 300px;
+    height: 74px;
+  }
+  
+  .front {
+    display: block;
+    padding: 33px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+  .front1 {
+    display: block;
+    padding: 33px 42px;
+    border-radius: 12px;
+    font-size: 1.15rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+  .pushable:active .front1 {
+    transform: translateY(-2px);
+  }
+  
+
+  .chlable{
+    display: inline;
+    margin-left: 18%;
+    
+    
+  }
+
+  .chos{
+    background-image: url("../images/choose1.jpg");
+	background-size: cover;
+	height: 675px;
+}
+
+
+/*Inventory css*/
+
+.containe1 {
+	background-color: rgb(255, 255, 255, 0.6);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	height: 520px;
+	border-color: black;
+	
+    
+	margin-top:0px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 15%;
+    text-align: center;
+}
+.containe1R {
+	background-color: rgb(255, 255, 255, 0.6);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	height: 520px;
+	border-color: black;
+	
+    
+	margin-top:0px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 15%;
+    text-align: center;
+}
+
+
+
+.invbg{
+	background-image: url("../images/inventrybg2.jpg");
+	background-size: cover;
+	height: 680px;
+}
+.reportbg{
+    background-color: rgb(255, 255, 255);
+	
+}
+
+.invsearch{
+    width: 300px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 268%;
+}
+.invsearchR{
+    width: 300px;
+    height: 35px;
+    margin-top: 0px;
+    margin-left: 850px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.pdfcss{
+   
+    margin-top: -42%;
+    margin-left: 97%;
+    width: 30px;
+}
+.pdfcssR{
+   
+    margin-top: -40%;
+    margin-left: 97%;
+    width: 30px;
+}
+.btn-link{
+ 
+    background-image: url("../images/pdf2.jpg");
+	background-size: cover;  
+    width: 35px;
+   height: 45px;
+}
+
+
+
+/* pdf*/
+.containepdf {
+	background-color: rgb(255, 255, 255, 0.6);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	height: 520px;
+	border-color: black;
+	
+    
+	margin-top:0px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 15%;
+    text-align: center;
+}
+
+
+.invpdfbg{
+    background-color: rgb(255, 255, 255);
+    height: 680px;
+}
+
+
+.exam{
+    margin-left: 8%;
+}
+
+
+
+
+/* add product css*/
+
+
+.contain1{
+    background-color: rgb(186, 188, 190,0.8);
+     
+     border-radius: 10px;
+     
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+             0 10px 10px rgba(0,0,0,0.22);
+     position: relative;
+     overflow: hidden;
+     width: 800px;
+     height: 550px;
+     border-color: black;
+     
+    
+     margin-left: 25%;
+     border: 3px solid rgb(0, 0, 0);
+     
+     
+     
+ }
+ 
+ .productTopic {
+    
+ 
+     font-family: Georgia, serif;
+     font-size: 46px;
+     text-align: center;
+     margin-top: 20px; 
+ }
+ 
+ .productinput-box2{
+  width: 30%;
+  background: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 6px 75px;
+  height: 42px;
+  border-radius: 20px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 12px;
+  margin-top: 30px;
+  
+  
+  
+ }
+ .productinput-box1{
+     width: 40%;
+     background: transparent;
+     border: 1px solid rgb(0, 0, 0);
+     margin: 2px 55px;
+     height: 42px;
+     border-radius: 20px;
+     padding: 10px 25px;
+     box-sizing: border-box;
+     outline: none;
+     font-size: 12px;
+     margin-top: 20px;
+     
+    }
+ 
+ 
+ 
+ .productsumbit-btn{
+     width: 20%;
+     border-radius: 20px;
+     background-color: rgb(223, 208, 7);
+     border: 1px solid rgb(0, 0, 0);
+     margin: 35px 0 10px;
+     height: 38px;
+     font-size: 12px;
+     border-radius: 20px;
+     justify-items: center;
+     box-sizing: border-box;
+     outline: none;
+     color: rgb(0, 0, 0);
+     padding: 0 10PX;
+     margin-left: 40%;
+ 
+ 
+     border-radius: 20px;
+     margin-top: 40px;
+     
+ }
+ 
+ ::placeholder{
+     font-size: 15px;
+ }
+ 
+  .addproductbg{
+     background-image: url("../images/add product1.jpg");
+     background-size:cover;
+     height: 675px;
+    
+     
+    
+ } 
+
+
+/* Assets and maintainance css*/
+
+.containe4 {
+	background-color: rgb(255, 255, 255, 0.6);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	border-color: black;
+	min-height: 480px;
+    min-width: 500px;
+	margin-top:40px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 20%;
+    text-align: center;
+}
+
+
+
+.assetstopic{
+    margin-left: 40%;
+    
+}
+
+.ambg{
+	background-image: url("../images/assetsbg3.jpg");
+	background-size:cover;
+	height: 675px;
+
+}
+
+
+/* Add maintainance css*/
+
+.containe5 {
+	background-color: rgb(255, 255, 255, 0.6);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 700px;
+	border-color: black;
+	min-height: 470px;
+    min-width: 500px;
+	margin-top:50px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 28%;
+    text-align: center;
+}
+.productinput-box3{
+    width: 80%;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 9px 55px;
+    height: 42px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 12px;
+    margin-top: 30px;
+	text-align: center;
+    
+   }
+   .productinput-box4{
+    width: 80%;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 9px 55px;
+    height: 42px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 12px;
+    margin-top: 30px;
+	text-align: center;
+    
+   }
+.maintaintopic{
+   
+    margin-top: 20px;
+}
+
+
+
+.AddMainForm{
+	align-items: center;
+	text-align: center;
+}
+
+.AddMainainbg{
+    background-image: url("../images/maintainsbg1.jpg");
+	background-size:cover;
+	height: 675px;
+}
+
+
+/* Request css*/
+
+.reqbody{
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("https://i.imgur.com/GMmCQHC.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+    
+.card{
+    
+    padding: 30px 40px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+    
+
+}
+
+.blue-text{
+    color: #00BCD4
+}
+
+.form-control-label{
+    margin-bottom: 0
+}
+
+input, textarea{
+    padding: 8px 15px;
+    border-radius: 5px !important;margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus, textarea:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;font-weight: 400
+}
+
+.btn-block{
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;height: 43px;cursor: pointer
+}
+    
+.btn-block:hover{
+    color: #fff !important
+}
+
+button:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.form-control-label px-3{
+    margin-left: 0%;
+}
+
+
+
+/*view Request css*/
+
+.reqcontaine {
+	background-color: rgb(255, 255, 255, 0.6);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	border-color: black;
+	min-height: 480px;
+    min-width: 500px;
+	margin-top:40px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 20%;
+    text-align: center;
+}
+
+
+
+.reqtopic{
+    margin-left: 45%;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+}
+
+.reqbg{
+	 background-image: url("../images/requestbg1.jpg"); 
+	background-size:cover;
+	height: 675px;
+
+}

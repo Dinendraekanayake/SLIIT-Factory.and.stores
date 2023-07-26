@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.nav2{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left:0 ;
+    background:  rgba(110, 207, 108, 0.822);
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+.nav1{
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    width: 100%;
+    
+    height: 80px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.725);
+
+}
+.nav1R{
+  
+    width: 100%;
+    
+    height: 80px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.725);
+
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+   margin-left: -5px;
+   padding-top: 20px;
+   
+
+}
+.logo:hover{
+    background: rgba(145, 147, 0, 0.681);
+    width: 300px;
+    background-size: 200px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    
+}
+.a1{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    display: table;
+    width: 30px;
+    padding: 10px;
+}
+.imge{
+    position:relative ;
+    width: 25px;
+    height: 25px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -6px;
+}
+
+
+.nav-item{
+    position: relative;
+    top: 8px;
+    margin-left: 80px;
+    margin-top: -4;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: black;
+    
+}
+.a1:hover{
+    background: rgba(145, 147, 0, 0.681);
+    width: 300px;
+    background-size: 200px;
+}
+.nav2:hover{
+    width: 290px;
+    transition: all 0.5s ease;
+}
+.logoo{
+    width: 250px;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.dash{
+    margin-left: 80%;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(110, 138, 0);
+    background-image: url("../images/back.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+
+.heading{
+    font-size: 30px;
+    color: rgb(167, 176, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.form-control{
+    margin-left: 80px;
+    
+}
+.lab{
+    margin-left: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+#btn{
+    margin-left: 80px;
+}
+li{
+    overflow: hidden;
+}

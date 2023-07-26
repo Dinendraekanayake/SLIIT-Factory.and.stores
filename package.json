@@ -1,0 +1,25 @@
+{
+  "name": "itp-pro2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "stores": "npm run start --prefix stores",
+    "dev": "concurrently \"npm run server \" \"npm run stores\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19",
+    "react-to-print": "^2.14.7",
+    "sweetalert": "^2.1.2"
+  }
+}
